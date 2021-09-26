@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Wireframe HTML CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/bedb0d6054.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+ <body> 
+  <div class="container">
+    <div class="weather-app">
+    <h1>
+      <div class="row">
+        <div class="col-6">
+      <i class="far fa-sun emoji"></i>
+        </div>
+      <div class="col-6">
+        <ul>
+          <li id="temperature">
+      33°C | <a href="#">°F</a> </li>
+     <li>Sunny</li>
+    </ul>
+      </div>
+ </div>
+    </h1>
+    <h2 id="city">
+        <i class="fas fa-map-pin"></i> Lisbon
+    </p>
+    <ul>
+    <li id="date"></li>
+    </ul>
+    </h2>
+    <h3>
+      <form id="search-form" >
+          <i class="fas fa-search-location"></i>
+        <input type="text" class="change-city" placeholder="Change City" id="city-input">
+      </form>
+    </h3>
+    <ul class="upcoming-days">
+      <li class="day1">
+     Tomorrow 33°C <i class="fas fa-cloud-sun"></i>
+     <li class="day2">
+     Monday 36°C <i class="far fa-sun"></i>
+     <li class="day3">
+     Tuesday 33°C <i class="fas fa-cloud-sun"></i>
+     <li class="day4">
+     Wednesday 35°C <i class="far fa-sun"></i>
+     <li class="day5">
+     Thursday 33°C <i class="fas fa-cloud-sun"></i>
+     </ul>
+</div> 
+<script src="src/index.js"></script>
+  </body>
+ 
+
+
+  
+</html>
